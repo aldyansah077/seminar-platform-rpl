@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Daftar Seminar & Workshop</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Judul</th><th>Tanggal</th><th>Lokasi</th><th>Kuota</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for s in seminars %}
+    <tr>
+      <td>{{ s.judul }}</td>
+      <td>{{ s.tanggal }}</td>
+      <td>{{ s.lokasi }}</td>
+      <td>{{ s.kuota }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

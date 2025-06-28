@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Form Pendaftaran</h2>
+<form method="post">
+  {{ form.hidden_tag() }}
+  <div class="mb-3">{{ form.nama.label }} {{ form.nama(class="form-control") }}</div>
+  <div class="mb-3">{{ form.email.label }} {{ form.email(class="form-control") }}</div>
+  <div class="mb-3">{{ form.no_hp.label }} {{ form.no_hp(class="form-control") }}</div>
+  <div class="mb-3">{{ form.seminar_id.label }} {{ form.seminar_id(class="form-select") }}</div>
+  {{ form.submit(class="btn btn-success") }}
+</form>
+{% endblock %}
