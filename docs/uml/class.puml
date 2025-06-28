@@ -1,0 +1,20 @@
+@startuml
+class Seminar {
+  +id: int
+  +judul: string
+  +deskripsi: text
+  +tanggal: date
+  +lokasi: string
+  +kuota: int
+}
+
+class Pendaftar {
+  +id: int
+  +nama: string
+  +email: string
+  +no_hp: string
+  +seminar_id: int
+}
+
+Seminar "1" -- "many" Pendaftar : memiliki
+@enduml

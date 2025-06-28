@@ -1,0 +1,14 @@
+@startuml
+actor User
+participant "Form Pendaftaran" as Form
+participant "Flask Route" as Route
+participant "Model Pendaftar" as Model
+database "DB Seminar" as DB
+
+User -> Form : Buka halaman /daftar
+Form -> Route : Submit form (POST)
+Route -> Model : Validasi data
+Model -> DB : Simpan pendaftar baru
+DB --> Model : OK
+Route --> User : Redirect ke /seminars
+@enduml
