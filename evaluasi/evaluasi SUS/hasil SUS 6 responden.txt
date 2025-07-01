@@ -1,0 +1,52 @@
+Usability Testing Report – System Usability Scale (SUS)
+
+URL Aplikasi:
+https://improved-parakeet-69r46gqpxww9c477q-5000.app.github.dev/
+Jumlah Responden: 6
+
+Responden 1 (R1)
+Jawaban: [4, 2, 4, 2, 3, 2, 4, 2, 4, 2]
+Adjusted Score: [3, 3, 3, 3, 2, 3, 3, 3, 3, 3]
+Total Adjusted: 31
+SUS Score: 77.5
+
+Responden 2 (R2)
+Jawaban: [5, 2, 5, 1, 4, 1, 4, 1, 5, 1]
+Adjusted Score: [4, 3, 4, 4, 3, 4, 3, 4, 4, 4]
+Total Adjusted: 37
+SUS Score: 82.5
+
+Responden 3 (R3)
+Jawaban: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+Adjusted Score: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+Total Adjusted: 28
+SUS Score: 70.0
+
+Responden 4 (R4)
+Jawaban: [5, 1, 5, 1, 5, 1, 5, 1, 5, 1]
+Adjusted Score: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+Total Adjusted: 35
+SUS Score: 87.5
+
+Responden 5 (R5)
+Jawaban: [4, 2, 3, 2, 3, 2, 3, 2, 4, 2]
+Adjusted Score: [3, 3, 2, 3, 2, 3, 2, 3, 3, 3]
+Total Adjusted: 30
+SUS Score: 75.0
+
+Responden 6 (R6)
+Jawaban: [4, 2, 4, 2, 3, 2, 4, 2, 4, 2]
+Adjusted Score: [3, 3, 3, 3, 2, 3, 3, 3, 3, 3]
+Total Adjusted: 31
+SUS Score: 77.5
+
+Rekapitulasi Skor SUS
+R1: 77.5
+R2: 82.5
+R3: 70.0
+R4: 87.5
+R5: 75.0
+R6: 77.5
+
+Rata-rata SUS: 78.3
+Interpretasi: Good (menurut adjective rating scale)
