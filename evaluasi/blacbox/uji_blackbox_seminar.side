@@ -1,0 +1,150 @@
+{
+  "id": "1469b2d7-3f5e-4bdc-8359-c0a4d58c47ec",
+  "version": "2.0",
+  "name": "seminar-platform",
+  "url": "https://improved-parakeet-69r46gqpxww9c477q-5000.app.github.dev/",
+  "tests": [{
+    "id": "a210ffc8-3de2-4f23-9546-04eb0a03c5fd",
+    "name": "login_daftar",
+    "commands": [{
+      "id": "c525cb51-9ef6-4db5-912a-ea377062d485",
+      "comment": "",
+      "command": "open",
+      "target": "https://improved-parakeet-69r46gqpxww9c477q-5000.app.github.dev/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02491508-0cd5-4280-aee0-55a723854f7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1dc9a38a-bced-45f0-be17-04859ed23f1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pendaftaran",
+      "targets": [
+        ["linkText=Pendaftaran", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Pendaftaran')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/daftar')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Pendaftaran')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d030a9-f1e0-4a6d-86b8-fdee8bdbc640",
+      "comment": "",
+      "command": "click",
+      "target": "id=nama",
+      "targets": [
+        ["id=nama", "id"],
+        ["name=nama", "name"],
+        ["css=#nama", "css:finder"],
+        ["xpath=//input[@id='nama']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f84a7d-923c-4858-a99d-f332ef930314",
+      "comment": "",
+      "command": "type",
+      "target": "id=nama",
+      "targets": [
+        ["id=nama", "id"],
+        ["name=nama", "name"],
+        ["css=#nama", "css:finder"],
+        ["xpath=//input[@id='nama']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "aldy"
+    }, {
+      "id": "4c643ed3-9f6d-4e0a-b473-e22e0e0ac9e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f53f222c-cb35-47c4-9fc3-e99f42be0861",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "aldy@gmail.c0m"
+    }, {
+      "id": "cc7ef347-8232-4660-88ae-ace339436ce6",
+      "comment": "",
+      "command": "click",
+      "target": "id=no_hp",
+      "targets": [
+        ["id=no_hp", "id"],
+        ["name=no_hp", "name"],
+        ["css=#no_hp", "css:finder"],
+        ["xpath=//input[@id='no_hp']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cf5459d-5c07-4da2-8d91-0e4ec2d91439",
+      "comment": "",
+      "command": "click",
+      "target": "id=no_hp",
+      "targets": [
+        ["id=no_hp", "id"],
+        ["name=no_hp", "name"],
+        ["css=#no_hp", "css:finder"],
+        ["xpath=//input[@id='no_hp']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de816393-7349-4be2-9911-5d86f494386e",
+      "comment": "",
+      "command": "type",
+      "target": "id=no_hp",
+      "targets": [
+        ["id=no_hp", "id"],
+        ["name=no_hp", "name"],
+        ["css=#no_hp", "css:finder"],
+        ["xpath=//input[@id='no_hp']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "08957373736"
+    }, {
+      "id": "562f84fb-2da7-4c80-bdf1-f413b7ecda8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "abcc14e5-fbd5-4637-a75f-9d71eca3807d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a210ffc8-3de2-4f23-9546-04eb0a03c5fd"]
+  }],
+  "urls": ["https://improved-parakeet-69r46gqpxww9c477q-5000.app.github.dev/"],
+  "plugins": []
+}
